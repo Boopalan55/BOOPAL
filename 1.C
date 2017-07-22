@@ -2,10 +2,8 @@
 int main()
 {
     double number;
-
     printf("Enter a number: ");
     scanf("%lf", &number);
-
     if (number <= 0.0)
     {
         if (number == 0.0)
